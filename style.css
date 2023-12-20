@@ -57,7 +57,7 @@ nav a {
 h2 {
   color: orange;
   text-align: center;
-  margin: 50px;
+  padding-top: 20px;
 }
 
 .sec {
@@ -76,7 +76,7 @@ main {
 }
 
 footer {
-  background-color: rgb(102, 17, 69);
+  background-color: rgb(82, 23, 90);
   color: orange;
   text-align: center;
   font-size: 30px;
@@ -89,7 +89,7 @@ footer a {
 }
 
 .hero {
-  background-image: url(../image/runner-7876675_1280.jpg);
+  background-image: url(./image/runner-7876675_1280.jpg);
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -178,7 +178,8 @@ main p {
   text-align: center;
   color: white;
   width: 100%;
-  margin: 30px;
+  grid-column: 2/4;
+  grid-row: 2/5;
 }
 
 .main_locales {
@@ -216,17 +217,18 @@ main div h1 {
 }
 
 main div p {
+  grid-column: 2/4;
+  grid-row: 2/5;
   justify-self: center;
   align-self: center;
   text-align: center;
   display: flex;
-  grid-column: 2/4;
-  grid-row: 2/5;
 }
 
 main div a {
   color: rgb(61, 0, 61);
   text-decoration: none;
+  margin-top: 10px;
 }
 
 nav {
@@ -235,6 +237,22 @@ nav {
 
 .cansado {
   width: auto;
+}
+
+.carrusel {
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
+  border-inline-style: groove;
+  margin-top: 50px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+p {
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */
